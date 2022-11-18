@@ -3,7 +3,7 @@ sys.path.append('/home/pi/.local/lib/python3.9/site-packages')
 import tweepy
 import time
 
-str = ''.join(sys.argv[1:])
+str = ' '.join(sys.argv[1:])
 CONSUMER_KEY=""
 CONSUMER_SECRET=""
 ACCESS_TOKEN=""
